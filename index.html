@@ -69,35 +69,35 @@
         </div>
     </section>
 
-    <!-- PRODUCTOS DESTACADOS -->
-    <section class="py-5">
+    <!-- FILTROS -->
+    <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="mb-4">Perfumes Destacados</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <!-- Producto -->
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="images/perfume1.jpg" class="card-img-top" alt="Perfume 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Perfume Nombre 1</h5>
-                            <p class="card-text">$29.000</p>
-                            <button class="btn btn-success w-100">Agregar al carrito</button>
-                        </div>
-                    </div>
+            <h2 class="mb-3">Filtrar productos</h2>
+            <form id="filtros-form" class="row g-3">
+                <div class="col-md-4">
+                    <label for="notas" class="form-label">Notas Aromáticas</label>
+                    <select id="notas" class="form-select">
+                        <option value="floral">Floral</option>
+                        <option value="citrico">Cítrico</option>
+                        <option value="amaderado">Amaderado</option>
+                    </select>
                 </div>
-                <!-- Otro producto -->
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="images/perfume2.jpg" class="card-img-top" alt="Perfume 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Perfume Nombre 2</h5>
-                            <p class="card-text">$35.000</p>
-                            <button class="btn btn-success w-100">Agregar al carrito</button>
-                        </div>
-                    </div>
+                <div class="col-md-4">
+                    <label for="genero" class="form-label">Género</label>
+                    <select id="genero" class="form-select">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="unisex">Unisex</option>
+                    </select>
                 </div>
-                <!-- Más productos... -->
-            </div>
+                <div class="col-md-4">
+                    <label for="precio" class="form-label">Precio máximo</label>
+                    <input type="number" id="precio" class="form-control" placeholder="Ej: 50000">
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Aplicar filtros</button>
+                </div>
+            </form>
         </div>
     </section>
 </body>
