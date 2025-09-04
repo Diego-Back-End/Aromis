@@ -1,0 +1,24 @@
+.card-img-top {
+  width: 100%;       /* Mantiene el ancho de la tarjeta */
+  max-height: 500px; /* Limita la altura máxima */
+  object-fit: contain; /* Mantiene la proporción de la imagen */
+}
+
+
+.card {
+  max-width: 320px;   /* controla ancho de la card */
+  margin: auto;       /* centra la card */
+}
+.card-img-top {
+  max-height: 300px;  /* controla altura de imagen */
+  object-fit: contain;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+}
