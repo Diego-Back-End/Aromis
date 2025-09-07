@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+/* Contenedor logo + texto */
+.logo-container {
+  display: flex;
+  align-items: center; /* centra verticalmente */
+  gap: 0.5rem; /* espacio entre logo y texto */
+}
+
+.navbar-logo {
+  height: 1.8rem;  /* ajusta al tamaño de la letra del título */
+  width: auto;
+}
+
+.logo {
+  font-size: 1.8rem; /* mismo alto visual que la imagen */
+  font-weight: bold;
+  color: #111;
+}
+
+/* Barra de busqueda */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  color: #c49a6c;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+}
+
+/* Catalogo */
+main {
+  padding: 2rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #444;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.oferta {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.tachado {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
