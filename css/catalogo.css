@@ -9,7 +9,29 @@ body {
   background-color: #fafafa;
   color: #333;
 }
-/* Contenedor logo + texto */
+
+/* Filtro de perfumes */
+.filtros {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.filter-btn {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background: #c49a6c;
+  color: white;
+  border-color: #c49a6c;
+}
+/* Logo */
 .logo-container {
   display: flex;
   align-items: center; /* centra verticalmente */
