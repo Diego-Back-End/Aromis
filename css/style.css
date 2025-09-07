@@ -27,7 +27,7 @@
 
 /* Estilos para la sección hero */
         .hero-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1595425970377-2f8ded7c7b19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/08/10/81/25/360_F_810812587_wPaRjzKCi8EolpN8MQABWEix89kKjBtH.jpg');
             background-size: cover;
             background-position: center;
             padding: 6rem 0;
@@ -35,14 +35,14 @@
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
         }
         .btn-primary {
-            background-color: #8a6d3b;
-            border-color: #7d5d2b;
+            background-color: #2289c0;
+            border-color: #1e86cc;
             padding: 0.75rem 2rem;
             font-weight: bold;
             text-shadow: none;
         }
         .btn-primary:hover {
-            background-color: #7d5d2b;
+            background-color: #1c95cd;
             border-color: #6d4c1f;
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
