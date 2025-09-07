@@ -27,27 +27,27 @@
     <h2>Catálogo de Perfumes</h2>
     <div class="filtros">
         <button class="filter-btn" data-filter="all">Todos</button>
-        <button class="filter-btn" data-filter="floral">Floral</button>
-        <button class="filter-btn" data-filter="amaderado">Citrico</button>
-        <button class="filter-btn" data-filter="unisex">Amaderado</button>
+        <button class="filter-btn" data-filter="Floral">Floral</button>
+        <button class="filter-btn" data-filter="Citrico">Citrico</button>
+        <button class="filter-btn" data-filter="Amaderado">Amaderado</button>
     </div>
-    <section class="catalogo">
+    <section class="catalogo" data-category="Amaderado">
       <div class="card">
         <img src="img/perfume1.jpg" alt="Perfume 1">
         <h3>Jpg le male elixir</h3>
         <p>$97.990</p>
       </div>
-      <div class="card">
+      <div class="card" data-category="Floral">
         <img src="img/perfume2.jpg" alt="Perfume 2">
         <h3>Stronger with you intensely</h3>
         <p>$90.990</p>
       </div>
-      <div class="card">
+      <div class="card" data-category="Citrico">
         <img src="img/perfume3.webp" alt="Perfume 3">
         <h3>9AM Dive</h3>
         <p>$32.990</p>
       </div>
-      <div class="card">
+      <div class="card" data-category="Floral">
         <img src="img/perfume4.webp" alt="Perfume 4">
         <h3>Liquid Brun</h3>
         <p>$40.990</p>
@@ -55,5 +55,7 @@
       <!-- Agrega más perfumes -->
     </section>
   </main>
+  <!--Js del catalogo-->
+  <script src="js/catalogo.js"></script>
 </body>
 </html>
