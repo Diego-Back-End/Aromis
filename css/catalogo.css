@@ -153,6 +153,7 @@ h2 {
   margin-left: 5px;
 }
 
+/* Columnas del catalogo */
 .catalogo {
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 4 columnas fijas */
