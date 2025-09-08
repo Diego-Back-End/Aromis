@@ -169,3 +169,31 @@ h2 {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
+/*diseno de boton agregar*/
+.btn {
+  background: linear-gradient(135deg, #d4a373, #b07a3b); /* degradado dorado */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #b07a3b, #8c6239); /* más oscuro al pasar */
+  transform: translateY(-2px); /* efecto levitar */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+.btn:active {
+  transform: scale(0.97); /* al hacer clic se encoge */
+}
+
+.card .btn {
+  margin-top: 10px; /* lo mueve hacia abajo */
+}
+
