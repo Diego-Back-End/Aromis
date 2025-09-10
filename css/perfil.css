@@ -1,69 +1,63 @@
-        :root {
-            --primary-color: #2fafc3;
-            --secondary-color: #326ba4;
-            --light-bg: #f8f9fa;
-        }
-        
-        body {
-            background-color: #f5f7fb;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        .profile-header {
-            background: linear-gradient(135deg, var(--primary-color), #8e6cdf);
-            color: white;
-            padding: 2rem 0;
-            margin-bottom: 2rem;
-            border-radius: 0 0 20px 20px;
-        }
-        
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border: 5px solid white;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        
-        .stats-card {
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            transition: transform 0.3s;
-        }
-        
- 
-        
-        .stats-icon {
-            font-size: 2rem;
-            color: var(--secondary-color);
-        }
-        
-        .nav-pills .nav-link.active {
-            background-color: var(--primary-color);
-        }
-        
-        .btn-primary {
-            background-color: var(--primary-color);
-            border-color: var(--primary-color);
-        }
-        
-        .btn-primary:hover {
-            background-color: #f5f7fb;
-            border-color: #f8f9fa;
-        }
-        
-        .badge-premium {
-            background: linear-gradient(45deg, #FFD700, #FFA500);
-            color: #000;
-        }
-        
-        .progress {
-            height: 8px;
-            border-radius: 4px;
-        }
-        
-        .activity-item {
-            border-left: 3px solid var(--primary-color);
-            padding-left: 15px;
-            margin-bottom: 20px;
-        }
+:root {
+    --primary-color: #2fafc3;   /* Color principal de la web */
+    --secondary-color: #326ba4; /* Color secundario */
+    --light-bg: #f8f9fa;        /* Fondo claro */
+}
+
+body {
+    background-color: #f5f7fb;  /* Color de fondo general */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente del texto */
+}
+
+.profile-header {
+    background: linear-gradient(135deg, var(--primary-color), #8e6cdf); /* Degradado del header */
+    color: white;                /* Texto en blanco */
+    padding: 2rem 0;             /* Espaciado arriba y abajo */
+    margin-bottom: 2rem;         /* Espacio debajo del header */
+    border-radius: 0 0 20px 20px;/* Bordes redondeados solo abajo */
+}
+
+.profile-img {
+    width: 150px;                /* Ancho fijo */
+    height: 150px;               /* Alto fijo */
+    border: 5px solid white;     /* Borde blanco */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.stats-card {
+    background: white;           /* Fondo blanco */
+    border-radius: 15px;         /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Sombra ligera */
+    transition: transform 0.3s;  /* Efecto suave si se anima */
+}
+
+.stats-icon {
+    font-size: 2rem;             /* Iconos grandes */
+    color: var(--secondary-color);/* Iconos con color secundario */
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--primary-color); /* Pestaña activa en color principal */
+}
+
+.btn-primary {
+    background-color: var(--primary-color); /* Botón en color principal */
+    border-color: var(--primary-color);     /* Borde del botón */
+}
+
+
+.badge-premium {
+    background: linear-gradient(45deg, #FFD700, #FFA500); /* Fondo dorado con degradado */
+    color: #000;                 /* Texto en negro */
+}
+
+.progress {
+    height: 8px;                 /* Grosor de la barra de progreso */
+    border-radius: 4px;          /* Bordes redondeados */
+}
+
+.activity-item {
+    border-left: 3px solid var(--primary-color); /* Línea de color al lado */
+    padding-left: 15px;          /* Espacio después de la línea */
+    margin-bottom: 20px;         /* Espacio entre actividades */
+}
